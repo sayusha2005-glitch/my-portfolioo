@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Hello MIT</title>
+
     <link rel="stylesheet" href="style.css">
+    <script src="slider.js" defer></script>
 </head>
 
 <body>
@@ -24,6 +27,7 @@
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#slider">Image Slider</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -48,6 +52,8 @@
 
 
 <main>
+
+    <!-- HOME SECTION -->
 
     <section id="home">
 
@@ -87,6 +93,8 @@
     </section>
 
 
+    <!-- ABOUT SECTION -->
+
     <section id="about">
 
         <h2>About Me</h2>
@@ -115,6 +123,66 @@
 
     </section>
 
+
+    <!-- IMAGE SLIDER SECTION -->
+
+    <section id="slider">
+
+        <h2>Image Slider</h2>
+
+        <div class="image-slider-container">
+
+            <div class="slider">
+
+                <div class="slider-viewport">
+
+                    <div class="slider-track">
+
+                        <div class="slide">
+                            <img src="images/coding.jpg"
+                                 alt="Coding workspace">
+                        </div>
+
+                        <div class="slide">
+                            <img src="images/code.jpg"
+                                 alt="Programming code">
+                        </div>
+
+                        <div class="slide">
+                            <img src="images/html.jpg"
+                                 alt="HTML web development">
+                        </div>
+
+                    </div>
+
+
+                    <button class="slider-btn prev"
+                            type="button"
+                            aria-label="Previous slide">
+                        &#10094;
+                    </button>
+
+                    <button class="slider-btn next"
+                            type="button"
+                            aria-label="Next slide">
+                        &#10095;
+                    </button>
+
+                </div>
+
+
+                <div class="slider-dots"
+                     aria-label="Slide navigation">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS SECTION -->
 
     <section id="skills">
 
@@ -168,12 +236,13 @@
     </section>
 
 
+    <!-- PROJECTS SECTION -->
+
     <section id="projects">
 
         <h2>Projects</h2>
 
         <div class="projects-container">
-
 
             <article>
 
@@ -232,11 +301,12 @@
 
             </article>
 
-
         </div>
 
     </section>
 
+
+    <!-- CONTACT SECTION -->
 
     <section id="contact">
 
@@ -281,6 +351,8 @@
     </section>
 
 
+    <!-- EDUCATION SECTION -->
+
     <section id="education">
 
         <h2>Education</h2>
@@ -316,6 +388,8 @@
 
     </section>
 
+
+    <!-- FIND ME ON SECTION -->
 
     <section class="find-me-on-container">
 
@@ -385,7 +459,6 @@
     </p>
 
 </footer>
-
 
 </body>
 
